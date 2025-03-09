@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Homely</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+header {
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .1);
+  display: flex;
+  border-bottom: #ffffff;
+  border: 0px;
+  background-color: #ffffff;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border: 0cm;
+}
+.homely_home {
+  border-radius: 30px;
+  height: 45px;
+}
+.logo_container {
+margin: 4%
+}
+.action_bar {
+  margin-right: 4%
+}
+.nav_bar {
+  margin-left: -670px;
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0;
+  border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+  border-bottom: 4px solid #f7ac6e;
+}
+.action_bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+.action_container1 a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px ;
+  color: #282c3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action_container1 a:hover{border-bottom: 4px solid #f7ac6e;}
+.action_container2 a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px ;
+  color: #282c3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action_container2 a:hover{border-bottom: 4px solid #f7ac6e;}
+.action_container3 a{
+  font-size: 14px;
+  letter-spacing: .3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px ;
+  color: #282c3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.action_container3 a:hover{border-bottom: 4px solid #f7ac6e;}
+.main_bag{
+box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, .1);
+margin-top: 30px;
+display: flex;
+height: 450px;
+background-image: url(https://png.pngtree.com/back_origin_pic/05/05/68/52e6ab3fde77ad0a01b5d03c03e982f8.jpg);
+color: #ffffff;
+justify-content: center;
+align-items: center;
+}
+.main_bag h1{
+  margin-top: -50px;
+margin-left: 50px;
+  font-size: 100px;
+font-family: 'Courier New', Courier, monospace;
+}
+.main_bag h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+.search_bar {
+            height: 40px;
+            min-width: 200px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        .search_icon {
+            box-sizing: content-box;
+            height: 20px;
+            padding: 10px;
+        
+            background-color: #f5f5f6;
+            color: #282c3f;
+            font-weight: 300;
+            border-radius: 8px 0 0 8px;
+        }
+.search_input {
+            color: #eef1f5;
+            background-color: #f5f5f6;
+            flex-grow: 1;
+            height: 40px;
+            border: 0;
+            border-radius: 0 8px 8px 0;
+        }
+.location{
+margin-left: 120px;
+  height: 40px;
+            min-width: 100px;
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+        .search_location{
+            box-sizing: content-box;
+            height: 20px;
+            padding: 10px;
+        
+            background-color: #ffffff;
+            color: #282c3f;
+            font-weight: 300;
+            border-radius: 8px 0 0 8px;
+        }
+.search_output {
+            color: #ffffff;
+            background-color: #ffffff;
+            flex-grow: 1;
+            height: 40px;
+            border: 0;
+            border-radius: 0 8px 8px 0;
+        }
+.subhead{
+
+            text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 1.8em;
+            margin: 30px 0 10px 65px;
+            max-height: 5em;
+            font-weight: 700;}
+.hotel1{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+              text-decoration: none;
+           ;}
+.img1 {
+width:250px;
+height: 350px;
+border-radius: 8px;
+}
+.hotel1 a{
+  text-decoration: none;
+}
+.hotel1 h2{ text-transform: uppercase;
+            color: #616268;
+            letter-spacing: 0.05em;
+            font-size: 1.3em;
+            text-decoration: none;
+            max-height: 5em;
+            font-weight: 700;}
+
+.hotel1 h4{ text-transform: uppercase;
+            color:  #616268;
+            letter-spacing: 0.05em; 
+            max-height: 5em;
+            font-weight: 700;
+            }
+.subhead1{
+            text-transform: uppercase;
+            color:#3e4152;
+            letter-spacing: .15em;
+            font-size: 2.0em;
+            margin: 40px 0 20px 65px;
+            max-height: 5em;
+            font-weight: 700;}
+.hotel2{
+  margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+              text-decoration: none;
+           }
+.img2{
+  border-radius: 200px;
+  height: 260px;
+}
+.hotel2 a{
+  text-decoration: none;
+}
+ .hotel2 h3{ text-transform: uppercase;
+            color:  #616268;
+            letter-spacing: 0.05em;
+           text-align: center;
+            margin: 4%;
+            max-height: 5em;
+            font-weight: 700;
+            }
+.app_download{
+background-color: #eeeff3;
+}
+.app_download h3{
+              margin-top: 20px;
+              text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 2.0em;
+           margin-left: 70px;
+            max-height: 5em;
+            font-weight: 700;}           
+.apkimg{
+  margin-left: 140px;
+margin-top: 30px;
+  height: 140px;
+}
+.footer_container {margin-top: 20px;
+                        padding: 30px 0px 40px 0px;
+                        background: #cbcdcf;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                    .name1{
+                      margin-top: 80px;
+                      border-radius: 30px;
+                      height: 45px;
+                    }
+                    .head a{
+                      text-decoration: none;
+                    }
+                    .head h2{
+                      margin-left: -150px;
+                      margin-top: 80px;
+              text-transform: uppercase;
+            color: #3e4152;
+            letter-spacing: .15em;
+            font-size: 2.0em;
+          text-decoration: none;
+            max-height: 5em;
+            font-weight: 700;
+                    }  
+                    .footer_column {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .footer_column h3 {
+                        color: #282c3f;
+                        font-size: 14px;
+                        margin-bottom: 25px;
+                    }
+                    .footer_column a {
+                        color: #696b79;
+                        font-size: 15px;
+                        text-decoration: none;
+                        padding-bottom: 5px;
+                    }
+                    .copyright {  
+                        color: #94969f;
+                        text-align: end;
+                        padding: 15px;
+                    }
+</style>
+</head>
+<link rel="stylesheet" href="C:\Users\prite\Desktop\Food site clone\Food site clone.css">
+<body>
+<header>
+<div class="logo_container">
+<img class="homely_home" src="https://png.pngtree.com/png-clipart/20220719/original/pngtree-food-logo-png-image_8367537.png" alt="Homely">
+</div>
+<nav class="nav_bar">
+<a href="">Homely</a>
+<a href="#">Get Our App</a>
+</nav>
+<div class="action_bar">
+<div class="action_container1">
+<a href="#" >
+<span class="material-symbols-outlined action_icon">person</span>
+<span class="action_name">   Sign up</span></a>
+</div>
+<div class="action_container2">
+<a href="#">
+<span class="material-symbols-outlined">storefront</span>
+<span class="action_name">Login</span></a>
+</div>
+<div class="action_container3">
+<a href="\#">
+<span class="material-symbols-outlined action_icon">shopping_bag</span>
+<span class="action_name">My Cart</span></a>
+</div>
+</div>
+</header>
+<main>
+<div class="main_bag">
+<ul>
+<h1 >Homely</h1>
+<h3>Get your food in no time just order it now </h3><br>
+ <div class="search_bar">
+  <span class="material-symbols-outlined search_icon">search</span>
+  <input class="search_input" placeholder="Search for restaurant, cuisine or a dish">
+</div><br>
+<div class="location"><br>
+  <span class="material-symbols-outlined search_location">
+location_on
+</span>
+<input class="search_output" placeholder="Add your location ">
+</div>
+</ul>
+</div>
+<div class="subhead">Discover best restaurants on Dineout</div>
+<div class="hotel1">
+<a href="#">
+<img class="img1" src="https://r1.ilikewallpaper.net/iphone-wallpapers/download/8238/Maldives-Ayada-Hotel-iphone-wallpaper-ilikewallpaper_com.jpg"><br> <h2 class="hello">Hotel 1</h2><h4>Location and reating</h4></a>
+<a href="#">
+<img class="img1" src="https://wallpapers.com/images/hd/las-vegas-iphone-venetian-hotel-pl6vuxnsi4xgbpwk.jpg"><h2>Hotel 2</h2><h4>Location and reating</h4>   </a>
+<a href="#">
+<img class="img1" src="https://e0.pxfuel.com/wallpapers/424/150/desktop-wallpaper-macau-china-best-hotels-travel-tourism.jpg"> <h2>Hotel 3</h2><h4>Location and reating</h4>  </a>
+<a href="#">
+<img class="img1" src="https://r1.ilikewallpaper.net/iphone-wallpapers/download/19277/Resort-Hotel-iphone-wallpaper-ilikewallpaper_com.jpg"> <h2>Hotel 4</h2><h4>Location and reating</h4>  </a>
+</div>
+<div class="subhead1">Order the food now </div>
+<div class="hotel2">
+  <a href="#"><img class="img2" src="https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Chicken-Biryani-Recipe.jpg"><h3>Biryani</h3></a>
+  <a href="#"><img class="img2" src="https://www.tasteofhome.com/wp-content/uploads/2021/01/New-York-Style-Pizza_EXPS_FT20_105578_F_1217_1.jpg"><h3>Pizza</h3></a>
+  <a href="#"><img class="img2" src="https://lifeloveandgoodfood.com/wp-content/uploads/2020/04/Chicken-Shawarma_09_1200x1200.jpg"><h3>Shawarma</h3></a>
+  <a href="#"><img class="img2" src="https://1.bp.blogspot.com/-Y_zvhi6qAIU/XxowqHKOpCI/AAAAAAAAIBw/VHhz3YC8EbMKtWdNqfPQSKlADLwZysRkgCLcBGAsYHQ/s1316/Idli%2BDosa%2BBatter%2Bin%2BMIxie.jpg"><h3>Idali</h3></a>
+  <a href="#"><img class="img2" src="https://juliasalbum.com/wp-content/uploads/2022/07/pasta-with-roasted-cherry-tomatoes-chicken-recipe.jpg"><h3>Pasta</h3></a>
+  <a href="#"><img class="img2" src="https://www.tasteofhome.com/wp-content/uploads/2020/03/Smash-Burgers_EXPS_TOHcom20_246232_B10_06_10b.jpg"><h3>burger</h3></a>
+<a href="#"><img class="img2" src="https://inbloombakery.com/wp-content/uploads/2023/02/heart-cake-FI.jpg"><h3>cake</h3></a>
+<a href="#"><img class="img2" src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https:%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8145753.jpg"><h3>Kabab</h3></a>
+</div>
+<div class="app_download">
+<h3>Download our app to order the best food and to get best restaurants to eat.</h3><br>
+<a href="#">
+<img class="apkimg" src="https://static.vecteezy.com/system/resources/previews/012/871/364/non_2x/google-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png">
+<img class="apkimg" src="https://static.vecteezy.com/system/resources/previews/012/871/374/original/app-store-download-button-in-white-colors-download-on-the-apple-app-store-free-png.png">
+</a>
+</div>
+</main>
+<footer>
+  <div class="footer_container">
+    <div class="name"><a href="3"><img class="name1" src="https://png.pngtree.com/png-clipart/20220719/original/pngtree-food-logo-png-image_8367537.png" alt="Homely"></a></div><div class="head"><a href=""><h2>Homely</h2></a></div>
+      <div class="footer_column">
+          <h3>About Homely
+            </h3>
+          <a href="#">Who We Are</a>
+          <a href="#">Blog</a>
+          <a href="#">Work With Us</a>
+          <a href="#">
+            Investor Relations</a>
+          <a href="#">
+            Report Fraud</a>
+          <a href="#">Report Fraud</a>
+          <a href="#">Press Kit</a>
+      </div>
+      <div class="footer_column">
+          <h3>Homely universe 
+            </h3>
+          <a href="#"> Blinkit</a>
+          <a href="#"> District</a>
+          <a href="#">  Hyperpure</a>
+          <a href="#"> Weather Union</a>
+          <a href="#">Partner With Us</a>
+          <a href="#"> For Restaurants</a>
+          <a href="#">gift cardsr</a>
+      </div>
+      <div class="footer_column">
+          <h3>Learn More</h3>
+          <a href="#">Privacy</a>
+          <a href="#">security</a>
+          <a href="#">terms</a>
+          <a href="#">conditions</a>
+          <a href="#">Contact Us</a>
+          <a href="#">helpline</a>
+          <a href="#">email us</a>
+      </div>
+  </div>
+  <hr>
+  <div class="copyright">
+      © 2025 www.homely.com. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>
